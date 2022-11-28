@@ -14,11 +14,11 @@ const arrayTwo = [11, 33, 9, 44, 5, 55, 23, 1, 2, 3, 4, 5, 6, 7];
 // }
 
 while (arrayOne.length > arrayTwo.length) {
-    arrayTwo.push(4);
+    arrayTwo.push(Math.floor(Math.random() + 1));
 }
 
 while (arrayTwo.length > arrayOne.length) {
-    arrayOne.push(1)
+    arrayOne.push(Math.floor(Math.random() + 1));
 }
 console.log(arrayOne);
 console.log(arrayTwo);
