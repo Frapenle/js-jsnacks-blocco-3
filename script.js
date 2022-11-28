@@ -8,3 +8,5 @@ while (question > 0 && question >= 10) {
     question = parseInt(prompt("Inserisci un numero tra 1 e 10"));
     console.log(question)
 }
+
+
