@@ -6,7 +6,7 @@ const arrayTwo = ["Rossi", "Frizzi", "Perez", "Gallitto", "Urban", "Montrone"];
 
 const combineArray = [];
 
-// for (let i = 0; i < arrayOne.length; i += 1) {
+// for (let i = 0; i < arrayOne.length; i++) {
 //     combineArray.push(arrayOne[i]);
 //     combineArray.push(arrayTwo[i]);
 // }
@@ -17,10 +17,8 @@ const combineArray = [];
 let i = 0;
 while (i < arrayOne.length) {
     combineArray.push(arrayOne[i]);
-    
     combineArray.push(arrayTwo[i]);
-    i += 1
-    console.log(arrayOne[i]);
+    i++
 }
 
 
